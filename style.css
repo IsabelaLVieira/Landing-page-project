@@ -1,0 +1,176 @@
+*{
+    font-family: 'Inter', sans-serif;
+    margin: 0px;
+
+}
+
+#menusuperior{
+    background-color: black;
+    background-image: url(imagens/fundocapainicio.svg);
+    color: aliceblue;
+
+}
+
+#logo{
+    margin-left: 75px;
+    margin-top: 50px;
+}
+
+#titulo-menusuperior{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+#texto-menusuperior{
+    margin-left: 150px;
+    margin-top: 35px;
+    padding-bottom: 100px;
+}
+
+#menuirformacional{
+    background-color: darkgrey;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+
+}
+
+.icone{
+    margin: 50px 0px 50px 100px;
+    padding: 25px;
+}
+
+.textoinformativo{
+    display: flex;
+    align-items: center;
+
+}
+
+
+/* Estilização do container principal */
+.container {
+    display: grid;
+    grid-auto-flow: column;
+    columns:auto;
+}
+
+/* Estilização da coluna esquerda */
+.left-column {
+    flex: 1; /* A coluna esquerda ocupa 1 unidade de flexibilidade, o que a faz crescer para ocupar o espaço disponível */
+    padding: 20px;
+    column-width: 150px;
+    
+}
+
+/* Estilização da coluna direita (para o vídeo) */
+.right-column {
+    flex: 1; /* A coluna direita também ocupa 1 unidade de flexibilidade */
+    padding: 100px;
+    margin-bottom: 20px;
+    column-width: 250px;
+    margin-top: 70px;
+    
+}
+
+/* Estilos para o título */
+h2 {
+    color: #247BA0;
+    font-size: 24px;
+   
+    
+}
+
+/* Estilos para o parágrafo */
+p {
+    font-size: 16px;
+
+}
+
+
+#video{
+    margin: 50px 25px 50px 75px;
+    padding: 100px;
+
+}
+
+
+#carrossel{
+    background-color:#247BA0;
+    padding: 50px;
+}
+
+#titulocarrossel{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+#div-cards{
+    margin-top: 25px;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.card{
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+.seta{
+    margin-top: 55%;
+    cursor: pointer;
+}
+
+.seta:hover{
+    transform:translateY(-7px);
+    transition-duration: 0.5s;
+
+}
+
+#seta-esquerda{
+    display: none;
+}
+
+#bruna{
+    display: none;
+}
+
+#formulario{
+    text-align: center;
+
+}
+
+#tituloformulario{
+    font-size: 25px;
+    margin: 25px;
+    color: #383838;
+}
+
+input{
+    width: 300px;
+    height: 30px;
+    background-color: #EAECE5;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+button{
+    background-color:#247BA0;
+    height: 40px;
+    width: 250px;
+    color: #EAECE5;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color:#247BA0;
+    color: #EAECE5;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #0c435a81;
+}
